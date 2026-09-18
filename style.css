@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.navbar {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.leftNav {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 8px 25px;
+
+}
+
+.leftNav img {
+
+    height: 50px;
+
+}
+
+.active {
+    color: #5AC2D3;
+}
+
+
+/* Hover state */
+.nav-item a:hover {
+    color: #09BCCA;
+
+}
+
+#prices:hover {
+    color: #09BCCA;
+    cursor: pointer;
+}
+
+nav li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+li select {
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: medium;
+}
+
+select option {
+    text-decoration: none;
+    font-size: medium;
+
+}
+
+.rightNav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.joinNowBox {
+    background-color: #09BCCA;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 25px 21px 25px;
+}
+
+#joinNow {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navbar {
+    padding-right: 0px;
+}
+
+.left {
+    width: 580px;
+    padding: 30px;
+    font-size: large;
+}
+
+.student2 {
+    width: 1600px;
+}
+
+.right {
+    padding-top: 5px;
+    display: flex;
+    background-image: linear-gradient(rgba(10, 25, 60, 0.72), rgba(10, 25, 60, 0.72)), url(images/student2.jpg);
+    background-position: center top;
+    background-size: cover;
+
+    /* max-width: 800px; */
+    min-height: 500px;
+    max-height: 600px;
+}
+
+.left {
+    width: 1000px;
+}
+
+h2 {
+    margin: 10px;
+    padding-left: 85px;
+    font-size: 50px;
+    line-height: 100%;
+    font-weight: 800;
+    line-height-step: -1;
+    color: white;
+}
+
+.p1 {
+    color: steelblue;
+    font-size: medium;
+    font-style: bold;
+    padding-top: 50px;
+    padding-left: 100px;
+    width: 680px
+}
+
+.p2 {
+    color: rgb(240, 227, 227);
+    padding-left: 100px;
+    width: 680px;
+    font-size: medium;
+}
+
+.button {
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 2px;
+    padding: 20px 10px;
+    background-color: steelblue;
+    color: white;
+}
+
+.buttonbox {
+    display: flex;
+}
+
+.joinButton {
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 2px;
+    padding: 20px 10px;
+    background-color: white;
+    color: black;
+}
+
+.heroSliderButton {
+    position: absolute;
+    top: 35%;
+    left: 90%;
+    /* transform: translate(-50%, -50%); */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    filter: invert(0.6);
+}
+
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #e8f7fa;
+    width: 180px;
+    height: 150px;
+    margin: 10px;
+}
+
+.feature img {
+    width: 50px;
+    height: 50px;
+    /* transform: scaleX(-1); */
+}
+
+.feature div:nth-child(2) {
+    font-size: 17px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.feature div:nth-child(3) {
+    font-size: 12px;
+    margin: 10px 0px;
+}
+
+.feature:hover {
+    scale: 1.05;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.featuresBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.girlWith{
+    background-color: skyblue ;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    /* padding-left: 200px; */
+}
+
+
+.Welcome{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+
+}
+
+.about{
+    color: #09BCCA;
+}
+
+.reading{
+    font-size: medium;
+    width: 700px;
+}
+
