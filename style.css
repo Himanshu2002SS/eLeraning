@@ -244,7 +244,7 @@ h2 {
 .girlWith{
     background-color: skyblue ;
     width: 400px;
-    height: 370px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -283,4 +283,147 @@ h2 {
 .arrow{
     color: #09BCCA;
     margin-right: 5px;
+}
+
+.aboutButton{
+    margin-bottom: 50px;
+    margin-left: 0px;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 10px 10px 10px;
+    background-color: steelblue;
+    color: white;
+
+}
+
+/* =========================
+   CATEGORY HEADING
+========================= */
+
+.categories {
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.categoriesH1 {
+    margin: -5px;
+}
+
+
+/* =========================
+   CATEGORY IMAGE CONTAINER
+========================= */
+
+.menLaptop {
+    margin: 50px auto;
+    width: 100%;
+}
+
+
+/* =========================
+   COMMON IMAGE SETTINGS
+========================= */
+
+.image1,
+.image2,
+.image3,
+.image4 {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/* =========================
+   IMAGE 1
+   WEB DESIGN
+========================= */
+
+.image1 {
+    margin-left: 250px;
+    margin-top: 0px;
+}
+
+
+/* =========================
+   IMAGE 2
+   ONLINE MARKETING
+========================= */
+
+.image2 {
+    margin-top: 0px;
+}
+
+
+/* =========================
+   IMAGE 3
+   GRAPHIC DESIGN
+========================= */
+
+.image3 {
+    margin-left: 247px;
+    transform: translateY(-100%);
+}
+
+
+/* =========================
+   IMAGE 4
+   VIDEO EDITING
+========================= */
+
+.image4 {
+    transform: translateY(-100%);
+}
+
+
+/* =========================
+   WHITE TEXT BOX
+========================= */
+
+.categoryText {
+    position: absolute;
+
+    right: 0;
+    bottom: 0;
+
+    background-color: white;
+
+    width: 145px;
+
+    padding: 12px 15px;
+
+    text-align: center;
+
+    box-sizing: border-box;
+}
+
+
+/* Category title */
+
+.categoryText h4 {
+    margin: 0 0 5px 0;
+
+    font-size: 16px;
+
+    font-weight: 700;
+
+    color: #111;
+}
+
+
+/* Courses text */
+
+.categoryText p {
+    margin: 0;
+
+    font-size: 11px;
+
+    color: #09BCCA;
 }
